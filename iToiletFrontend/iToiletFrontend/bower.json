@@ -9,6 +9,8 @@
   "dependencies": {
     "polymer": "Polymer/polymer#master",
     "platform": "Polymer/platform#master",
-    "paper-elements": "Polymer/paper-elements#master"
+    "paper-elements": "Polymer/paper-elements#master",
+    "google-map": "GoogleWebComponents/google-map#latest",
+    "core-elements": "Polymer/core-elements#latest"
   }
 }

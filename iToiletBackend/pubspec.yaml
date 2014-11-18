@@ -1,5 +1,0 @@
-name: avast_ye_pirates
-description: Write a Dart web app code lab
-dependencies:
-  browser: any
-  mongo_dart: ">=0.1.45 <0.2.0"

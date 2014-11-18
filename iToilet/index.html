@@ -31,7 +31,7 @@
   <script>
       var xmlhttp;
       xmlhttp=new XMLHttpRequest();
-      xmlhttp.open("GET","demo_get.asp",true);
+      xmlhttp.open("GET","http://opendata.brussels.be/api/records/1.0/search/?dataset=public-toilets",true);
       xmlhttp.send();
       json = xmlhttp.responseText;
       alert(json);

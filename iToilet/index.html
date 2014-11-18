@@ -31,16 +31,15 @@
   <script>
       var xmlhttp;
       xmlhttp=new XMLHttpRequest();
-      xmlhttp.onreadystatechange=update();
-      xmlhttp.open("GET","https://opendata.brussels.be/api/records/1.0/search/?dataset=public-toilets",false);
-      xmlhttp.send();
-      
-      function update(){
+      xmlhttp.open("GET","http://opendata.brussels.be/api/records/1.0/search/?dataset=public-toilets",false);
+      xmlhttp.onreadystatechange=function()
+        {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
           {
           alert(xmlhttp.responseText);
           }
         }
+      xmlhttp.send();
   </script>
 
   <link rel="stylesheet" href="styles.css">

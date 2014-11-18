@@ -27,6 +27,15 @@
   <link rel="import" href="bower_components/paper-fab/paper-fab.html">
   <link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
   <link rel="import" href="bower_components/paper-toast/paper-toast.html">
+  
+  <script>
+      var xmlhttp;
+      xmlhttp=new XMLHttpRequest();
+      xmlhttp.open("GET","demo_get.asp",true);
+      xmlhttp.send();
+      json = xmlhttp.responseText;
+      alert(json);
+  </script>
 
   <link rel="stylesheet" href="styles.css">
 </head>

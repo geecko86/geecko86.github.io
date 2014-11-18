@@ -1,0 +1,19 @@
+{
+  "name": "PolymerMapsCodelab",
+  "description": "",
+  "homepage": "",
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#latest",
+    "paper-elements": "Polymer/paper-elements#latest",
+    "core-elements": "Polymer/core-elements#latest",
+    "google-map": "GoogleWebComponents/google-map#latest"
+  },
+  "resolutions": {
+    "polymer": "^0.5.0",
+    "core-shared-lib": "^0.5.0",
+    "core-component-page": "^0.5.0"
+  }
+}
